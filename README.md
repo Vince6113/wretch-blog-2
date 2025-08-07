@@ -25,3 +25,10 @@ git status 確認狀態
 git add .
 git commit -m 'feat: add admin urls'
 git push origin issue/1 發 pr 到 issue/1
+git checkout main
+git pull
+刪除分支 issue/1
+git branch issue/3
+git checkout -b issue/3
+git branch issue/3
+增加 views.py 在 wretch，about home 兩個 render 搬進來，在 urls.py 匯入 .view 的 about 和 home
