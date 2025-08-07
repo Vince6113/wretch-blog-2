@@ -20,3 +20,8 @@ git commit --amend --no-edit 併入上層
 git push --force-with-lease 硬推
 git branch issue/1 開分支
 git checkout issue/1 切換分支
+uv run manage.py createsuperuser 建立帳戶
+git status 確認狀態
+git add .
+git commit -m 'feat: add admin urls'
+git push origin issue/1 發 pr 到 issue/1
