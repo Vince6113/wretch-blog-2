@@ -34,3 +34,6 @@ git branch issue/3
 增加 views.py 在 wretch，about home 兩個 render 搬進來，在 urls.py 匯入 .view 的 about 和 home
 git add .
 git commit -m 'refactor: move views to views.py' 重構
+git checkout main
+git merge issue/3
+git push origin main
